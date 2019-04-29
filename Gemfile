@@ -12,6 +12,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'figaro'
+gem 'graphql', '1.8.13'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -28,3 +29,5 @@ end
 
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'graphiql-rails', '1.5.0', group: :development
